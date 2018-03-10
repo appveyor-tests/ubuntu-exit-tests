@@ -1,6 +1,7 @@
 image: ubuntu
 
 test_script:
+- node --version
 - sh: chmod +x script1.sh
 - sh: chmod +x script2.sh
 - sh: yarn add lodash-node
