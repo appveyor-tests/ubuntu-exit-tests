@@ -3,7 +3,7 @@ image: ubuntu
 test_script:
 - chmod +x script1.sh
 - chmod +x script2.sh
-- yarn install lodash-node
+- yarn add lodash-node
 - ./script1.sh
 - ./script2.sh
 
