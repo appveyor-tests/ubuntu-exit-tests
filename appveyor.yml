@@ -1,10 +1,11 @@
 image: ubuntu
 
 test_script:
-- chmod +x script1.sh
-- chmod +x script2.sh
-- yarn add lodash-node
-- ./script1.sh
-- ./script2.sh
+- sh: chmod +x script1.sh
+- sh: chmod +x script2.sh
+- sh: yarn add lodash-node
+- sh: ./script1.sh
+- 
+- sh: ./script2.sh
 
 build: off
