@@ -7,7 +7,7 @@ test_script:
 - sh: yarn add lodash-node
 #- sh: yarn add lodash11
 - sh: ./script1.sh
-- sh: exit 1
+- sh: exit 0
 #- dir1
 - sh: ./script2.sh
 
