@@ -4,6 +4,8 @@ test_script:
 - node --version
 - sh: chmod +x script1.sh
 - sh: chmod +x script2.sh
+- nvm install 9
+- node --version
 - sh: yarn add lodash-node
 - sh: yarn add lodash
 - sh: ./script1.sh
