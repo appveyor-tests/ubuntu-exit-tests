@@ -1,3 +1,5 @@
+image: ubuntu
+
 test_script:
 - chmod +x script1.sh
 - chmod +x script2.sh
