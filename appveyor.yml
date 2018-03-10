@@ -4,9 +4,10 @@ test_script:
 - sh: chmod +x script1.sh
 - sh: chmod +x script2.sh
 - sh: yarn add lodash-node
+- sh: yarn add lodash
 - sh: ./script1.sh
-- sh: exit 1
-- dir1
+#- sh: exit 1
+#- dir1
 - sh: ./script2.sh
 
 build: off
