@@ -12,7 +12,7 @@ services:
 - docker
 
 test_script:
-- sh: node install lodash
+- sh: npm install lodash
 - sh: ./script1.sh
 #- sh: exit 1
 - ls
