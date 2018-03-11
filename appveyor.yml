@@ -1,12 +1,17 @@
 image: ubuntu
 
-test_script:
+install:
 - node --version
 - sh: chmod +x script1.sh
 - sh: chmod +x script2.sh
 - nvm install 9
 - node --version
 - sh: yarn add lodash-node
+
+services:
+- docker
+
+test_script:
 - sh: node install lodash
 - sh: ./script1.sh
 #- sh: exit 1
