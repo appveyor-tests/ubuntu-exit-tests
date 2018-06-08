@@ -13,9 +13,9 @@ services:
 
 test_script:
 - sh: npm install lodash
-- sh: ./script1.sh
+- sh: ./script2.sh
 #- sh: exit 1
 - ls
-- sh: ./script2.sh
+- sh: ./script1.sh
 
 build: off
